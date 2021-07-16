@@ -1,0 +1,50 @@
+
+<html>
+    <head>
+      <title>StrawHouse Inc.</title>
+      <link rel="stylesheet" href="straw.css" type="text/css" media="screen" />
+      <script type="text/javascript">
+        function validate(form){
+          if(form.password.value!="swordf1sh")
+            document.getElementById("output").innerHTML="INVALID PASSWORD! <br/> HACKER ALERT!";
+          else
+            document.location = "./welcome.html";
+        }
+      </script>
+    </head>
+  <body>
+  <div id="content">
+  
+  <div id="side">
+    <h2>Customer Log-in</h2>
+    <form method="" id="login" action="">
+      <label for="username">Username: </label> <input type="text" name="username" value="" /><br/>
+      <label for="password">Password:</label> <input type="password" name="password" value="" /><br/>
+      <button type="button" onclick="validate(this.form)">Log In</button>
+      
+    </form>
+    <span id="output"></span>
+  </div>  
+  <div id="mainPane">
+    
+  
+    <h1>Welcome To StrawHouse Inc.</h1>
+    <p>StrawHouse Inc. have been supplying widgets to the widget
+    redistribution and sales industry for over 81 years.</p>
+    <p>This website allows our customers to place orders and update
+    payment details.</p>
+    <p>If you are an individual looking to purchase our famous
+      high-quality widgets, please try one of the following widget
+      retailers:</p>
+  <ul>
+    <li>James's Widgets, Wolverhampton</li>
+    <li>Terry's Chocolate Widgets, Coventry</li>
+    <li>Mandeep's Widget Emporium, Stoat-on-Trout</li>
+    <li>Nazaraf's Finest Widgets, Sodor</li>
+  </ul>
+  </div>
+  
+  </div>
+  </body>
+  </html>
+  

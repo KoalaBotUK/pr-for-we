@@ -1,0 +1,23 @@
+body, html{
+    
+    font-family: Helvetica, sans;
+}
+
+html{background: #EEEE88; }
+#mainPane {width:320px; margin-left: auto; margin-right: auto; padding:10%; background:#FFFFFF}
+
+h1{
+    width: 100%;
+    border: 1px solid;
+    top: 0px;
+    padding: 1em;
+    margin-top: -2em;
+    margin-left: -1em;
+    background: #EEEE88;  
+}
+
+#mainPane{float: left}
+
+#side{ float: left; width 190px; border: 1px solid;}
+
+#output {background: #FF8888; border: 1px solid; }
